@@ -5,6 +5,17 @@ ul {
     margin: 0;
 }
 
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: pink;
+    justify-content: space-between;
+}
 
 
 header {
@@ -24,8 +35,6 @@ footer {
     bottom: 0;
 }
 
-@media (min-height: 930px) {
-    footer {
-        position: fixed;
-    }
+.spacer {
+    flex: 1;
 }
